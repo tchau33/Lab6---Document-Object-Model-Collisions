@@ -1,0 +1,31 @@
+.background {
+  background: url("https://78.media.tumblr.com/0f3927f0017e84b9c6ec69901c5a825a/tumblr_n9lwm7N7VX1tz79vpo1_r1_1280.gif");
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+.background td {
+  padding: 0;
+}
+
+.lava {
+  background: rgb(255, 100, 100);
+}
+
+.wall {
+  background: white;
+}
+
+.floater {
+  background: #fff5c1;
+}
+
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
