@@ -224,8 +224,7 @@ Player.prototype.moveY = function(step, level, keys) {
 
   // If obstacle is lava
   if (obstacle === "lava") {
-    this.player = this.pos.y = 16;
-    this.player = this.pos.x = 4;
+    this.pos = new Vector(4,16);
   }
 
   // The floor is also an obstacle -- only allow players to
